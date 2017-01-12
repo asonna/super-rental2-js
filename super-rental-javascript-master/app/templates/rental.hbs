@@ -1,0 +1,5 @@
+<h2>More information about {{model.owner}}'s {{model.type}}</h2>
+<!-- the right side of the = symbol has to match what you want to pass in, the left side has to match what is inside the component(the component is update-rental in this case) !-->
+{{update-rental rental=model update="update"}}
+
+{{rental-detail rental=model destroyRental="destroyRental"}}
